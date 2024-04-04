@@ -15,7 +15,7 @@ app.get('/productos', (req, res) => {
     res.json('productos');
 })
 
-const PORT = 5000;
+const PORT = 12600;
 app.listen(PORT, () => {
     console.log('Servidor express funcionando en el puerto $(PORT)')
 })
